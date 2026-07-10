@@ -8,8 +8,8 @@ TocOpen: false
 draft: true
 hidemeta: false
 comments: false
-description: "Deskripsi postingan"
-canonicalURL: ""
+description: "Deskripsi singkat postingan"
+canonicalURL: "https://foxe.web.id/posts/{{ .Name }}/"
 disableShare: false
 hideSummary: false
 searchHidden: false
@@ -30,7 +30,5 @@ editPost:
     Text: "Suggest Changes"
     appendFilePath: true
 ---
-
-## Halo, Selamat Datang di Foxe! 🦊
 
 **Tulis kontenmu di sini.**
