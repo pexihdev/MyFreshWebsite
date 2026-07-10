@@ -1,0 +1,125 @@
+baseURL = "https://foxe.web.id/"
+title = "Foxe"
+paginate = 5
+theme = "PaperMod"
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[minify]
+  disableXML = true
+  minifyOutput = true
+
+[params]
+  env = "production"
+  title = "Foxe"
+  description = "Blog pribadi Foxe"
+  keywords = ["Blog", "Hugo", "PaperMod", "Foxe"]
+  author = "Foxe"
+  images = [""]
+  DateFormat = "January 2, 2006"
+  defaultTheme = "auto"
+  disableThemeToggle = false
+
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = false
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  disableSpecial1stPost = false
+  disableScrollToTop = false
+  comments = false
+  hidemeta = false
+  hideSummary = false
+  showtoc = false
+  tocopen = false
+
+[params.assets]
+  favicon = ""
+  favicon16x16 = ""
+  favicon32x32 = ""
+  apple_touch_icon = ""
+  safari_pinned_tab = ""
+
+[params.label]
+  text = "Home"
+  icon = ""
+  iconHeight = 35
+
+[params.profileMode]
+  enabled = false
+  title = "Foxe"
+  subtitle = "Selamat datang di blog Foxe"
+  imageUrl = ""
+  imageWidth = 120
+  imageHeight = 120
+  imageTitle = "Foxe"
+
+[[params.profileMode.buttons]]
+  name = "Posts"
+  url = "posts"
+
+[[params.profileMode.buttons]]
+  name = "Tags"
+  url = "tags"
+
+[params.homeInfoParams]
+  Title = "Hi there 👋"
+  Content = "Selamat datang di blog Foxe. Saya menulis tentang teknologi dan pemrograman."
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/pexihdev"
+
+[params.analytics]
+  google = { SiteVerificationTag = "" }
+  bing = { SiteVerificationTag = "" }
+  yandex = { SiteVerificationTag = "" }
+
+[params.cover]
+  hidden = true
+  hiddenInList = true
+  hiddenInSingle = true
+
+[params.editPost]
+  URL = "https://github.com/pexihdev/MyFreshWebsite/content"
+  Text = "Suggest Changes"
+  appendFilePath = true
+
+[params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1000
+  threshold = 0.4
+  minMatchCharLength = 0
+  limit = 10
+  keys = ["title", "permalink", "summary", "content"]
+
+[[menu.main]]
+  identifier = "categories"
+  name = "categories"
+  url = "/categories/"
+  weight = 10
+
+[[menu.main]]
+  identifier = "tags"
+  name = "tags"
+  url = "/tags/"
+  weight = 20
+
+[[menu.main]]
+  identifier = "github"
+  name = "GitHub"
+  url = "https://github.com/pexihdev"
+  weight = 30
+
+pygmentsUseClasses = true
+
+[markup.highlight]
+  noClasses = false
